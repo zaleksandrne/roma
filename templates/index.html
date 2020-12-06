@@ -4,9 +4,9 @@
 {% block content %}
     {% for flower in flowers_list %}
     <h3>
-        Букет: {{ flower.name }}, 
+        Букетsdsadas: {{ flower.name }},
         Описание: {{ flower.description }}
-        Цена: {{ flower.price }}, 
+        Цена: {{ flower.price }},
     </h3>
     <p>{{ post.text|linebreaksbr }}</p>
     {% if not forloop.last %}<hr>{% endif %}
@@ -16,4 +16,4 @@
     {% include "paginator.html" with items=page paginator=paginator%}
     {% endif %}
 
-{% endblock %} 
+{% endblock %}
