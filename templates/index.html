@@ -2,9 +2,11 @@
 {% block title %}Последние обновления на сайте{% endblock %}
 {% block header %}Последние обновления на сайте{% endblock %}
 {% block content %}
-    {% for post in page %}
+    {% for flower in flowers_list %}
     <h3>
-        Автор: {{ post.author.get_full_name }}, Дата публикации: {{ post.pub_date|date:"d M Y" }}
+        Букет: {{ flower.name }}, 
+        Описание: {{ flower.description }}
+        Цена: {{ flower.price }}, 
     </h3>
     <p>{{ post.text|linebreaksbr }}</p>
     {% if not forloop.last %}<hr>{% endif %}
