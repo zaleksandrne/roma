@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="ru">
 <head>
+  {% load static %}
   <meta charset="utf-8"/>
-  <link rel="icon" href="favicon.ico"/>
+  <link rel="icon" href="{% static 'favicon.ico' %}"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <meta name="theme-color" content="#000000"/>
-  <meta name="description" content="Доставка цветов СПБ"/>
-  <link rel="apple-touch-icon" href="logo192.png"/>
-  <link rel="manifest" href="manifest.json"/>
-  <link rel="stylesheet" href="styles/normalize.css"/>
-  <title>Доставка цветов</title>
-  <link href="static/css/main.chunk.css" rel="stylesheet">
+  <meta name="description" content="Web site created using create-react-app"/>
+  <link rel="apple-touch-icon" href="{% static 'logo192.png' %}"/>
+  <link rel="manifest" href="{% static 'manifest.json' %}"/>
+  <title>React App</title>
+  <link href="{% static 'css/main.01dcc39d.chunk.css' %}" rel="stylesheet">
 </head>
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -51,7 +51,7 @@
       t.push(r[2] = n);
       var u, i = document.createElement("script");
       i.charset = "utf-8", i.timeout = 120, a.nc && i.setAttribute("nonce", a.nc), i.src = function (e) {
-        return a.p + "static/js/" + ({}[e] || e) + ".chunk.js"
+        return a.p + "static/js/" + ({}[e] || e) + "." + {3: "496a0fed"}[e] + ".chunk.js"
       }(e);
       var c = new Error;
       u = function (t) {
@@ -104,7 +104,7 @@
   var f = c;
   r()
 }([])</script>
-<script src="static/js/2.chunk.js"></script>
-<script src="static/js/main.chunk.js"></script>
+<script src="{% static 'js/2.6238d9d1.chunk.js' %}"></script>
+<script src="{% static 'js/main.6a73af34.chunk.js' %}"></script>
 </body>
 </html>
