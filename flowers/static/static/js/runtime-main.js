@@ -1,21 +1,4 @@
-<!doctype html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8"/>
-  <link rel="icon" href="/favicon.ico"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <meta name="theme-color" content="#000000"/>
-  <meta name="description" content="Доставка цветов СПБ"/>
-  <link rel="apple-touch-icon" href="/logo192.png"/>
-  <link rel="manifest" href="/manifest.json"/>
-  <link rel="stylesheet" href="/styles/normalize.css"/>
-  <title>Доставка цветов</title>
-  <link href="/static/css/main.chunk.css" rel="stylesheet">
-</head>
-<body>
-<noscript>You need to enable JavaScript to run this app.</noscript>
-<div id="root"></div>
-<script>!function (e) {
+!function (e) {
   function t(t) {
     for (var n, a, i = t[0], c = t[1], l = t[2], s = 0, p = []; s < i.length; s++) a = i[s], Object.prototype.hasOwnProperty.call(o, a) && o[a] && p.push(o[a][0]), o[a] = 0;
     for (n in c) Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]);
@@ -74,10 +57,10 @@
   }, a.m = e, a.c = n, a.d = function (e, t, r) {
     a.o(e, t) || Object.defineProperty(e, t, {enumerable: !0, get: r})
   }, a.r = function (e) {
-    "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {value: "Module"}), Object.defineProperty(e, "__esModule", {value: !0})
+    "undefined" !== typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {value: "Module"}), Object.defineProperty(e, "__esModule", {value: !0})
   }, a.t = function (e, t) {
     if (1 & t && (e = a(e)), 8 & t) return e;
-    if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+    if (4 & t && "object" === typeof e && e && e.__esModule) return e;
     var r = Object.create(null);
     if (a.r(r), Object.defineProperty(r, "default", {
       enumerable: !0,
@@ -103,8 +86,5 @@
   for (var l = 0; l < i.length; l++) t(i[l]);
   var f = c;
   r()
-}([])</script>
-<script src="/static/js/2.chunk.js"></script>
-<script src="/static/js/main.chunk.js"></script>
-</body>
-</html>
+}([]);
+//# sourceMappingURL=runtime-main.js.map
