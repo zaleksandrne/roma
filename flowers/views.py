@@ -11,7 +11,7 @@ def index(request):
     path = Path("/home/alex/code/roma/roma/flowers/static/base_flowers.json")
     data = json.loads(path.read_text())
     for i in range(0, len(data)):
-        data[i]["image"] = data[i]["image"].replace("/home/alex/code/roma/roma/", "")
+        data[i]["image"] = data[i]["image"].replace("/home/alex/code/roma/roma/flowers", "")
     path.write_text(json.dumps(data, ensure_ascii=False))
     return render(request, 'index.html', {"flowers": flowers}) 
 
